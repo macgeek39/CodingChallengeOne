@@ -17,7 +17,7 @@ Test data:
 m tall.
 § Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76
 m tall.
-*/
+
 
 //Store Mark's and John's mass and height in variables
 let markMass = 95 ;
@@ -39,3 +39,19 @@ else
 {
     console.log("John has a higher BMI than Mark");
 }
+
+*/
+
+/* Write your code below. Good luck! 🙂 *///Store Mark's and John's mass and height in variables
+let massMark = 95 ;
+let heightMark = 1.88;
+
+let massJohn = 85;
+let heightJohn = 1.76;
+
+//Calculate both their BMIs using the formula (you can even implement both versions)
+
+let BMIMark = massMark / heightMark ** 2;
+let BMIJohn = massJohn / (heightJohn * heightJohn);
+
+console.log(BMIMark, BMIJohn);
